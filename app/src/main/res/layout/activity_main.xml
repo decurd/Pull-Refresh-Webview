@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.roonets.webapp.MainActivity">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshWebView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_webview"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="3dip"
+        android:background="@color/background_material_dark"
+        android:cacheColorHint="#00000000"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrMode="pullFromStart" />
+
+</android.support.constraint.ConstraintLayout>
